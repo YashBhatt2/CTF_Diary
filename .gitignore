@@ -1,0 +1,66 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Virtual Environments
+venv/
+.env/
+.ctfenv/
+
+# =====================
+# macOS Junk
+# =====================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =====================
+# Editor Files
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================
+# CTF Downloads / Working Files
+# =====================
+downloads/
+challenge_files/
+extracted/
+output/
+tmp/
+temp/
+
+# Common extracted folders from binwalk
+_* .extracted/
+
+# =====================
+# Binary Files (optional)
+# =====================
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# Images & audio used only for solving
+*.png
+*.jpg
+*.jpeg
+*.wav
+*.mp3
+
+# =====================
+# Flags / Secrets
+# =====================
+flag.txt
+*.key
+passwords.txt
+
